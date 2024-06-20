@@ -12,7 +12,7 @@
             @foreach ($this->orders as $order)
                 <tr>
                     <td>
-                        <a href="{{ route('view-order', $order->id) }}" class="underline font-medium">#{{ $order->id }}</a>
+                        <a wire:navigate href="{{ route('view-order', $order->id) }}" class="underline font-medium">#{{ $order->id }}</a>
                     </td>
                     <td>{{ $order->created_at->diffForHumans() }}</td>
                     <td class="text-right">{{ $order->amount_total }}</td>
