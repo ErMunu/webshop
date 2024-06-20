@@ -131,7 +131,3 @@ Contributions are welcome! Fork the repository, create your feature branch, comm
 ## License
 
 This project is licensed under the [MIT License](LICENSE).
-
----
-
-Feel free to adjust the sections and content based on your specific project details and preferences. This template provides a structured approach to documenting your Laravel webshop project.
